@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="92">
+    <author>Jos</author>
+	<translators>Noraf, Miguel, Darindul</translators>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Extended Straw Crops</en>
+        <de>Erweiterte Strohkulturen</de>
+    </title>
+    <description>
+        <en><![CDATA[Canola, Corn, Sorghum, Soybean, Sunflower, and Long Grain Rice give straw when harvesting.]]></en>
+        <de><![CDATA[Raps, Mais, Sorghum, Sojabohnen, Sonnenblumen, und Long Grain Rice liefern bei der Ernte Stroh.]]></de>
+		<nl><![CDATA[Koolzaad, Maïs, Sorghum, Sojabonen, Zonnenbloemen en Langkorrelige Rijst geven nu stro bij het oogsten.]]></nl>
+		<es><![CDATA[La Canola, Maiz, Sorgo, Soja, el Girasol y el Arroz de Grano Largo dan paja durante la cosecha.]]></es>
+		<no><![CDATA[Raps, Mais, Durra, Soyabønner, Solsikker  og  Langkornet ris gir halm når de blir høstet.]]></no>
+		<pl><![CDATA[Rzepak, kukurydza, sorgo, soja, słoneczniki i ryż długoziarnisty będą produkować słomę podczas zbiorów.]]></pl>
+    </description>
+    <iconFilename>icon_CropManager.dds</iconFilename>
+    <multiplayer supported="true" />
+    <extraSourceFiles>
+        <sourceFile filename="src/main.lua" />
+    </extraSourceFiles>
+</modDesc>
