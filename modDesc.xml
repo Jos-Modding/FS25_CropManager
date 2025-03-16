@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="92">
+<modDesc descVersion="96">
     <author>Jos</author>
-	<translators>Noraf, Miguel, Darindul</translators>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <title>
         <en>Extended Straw Crops</en>
         <de>Erweiterte Strohkulturen</de>
     </title>
     <description>
-        <en><![CDATA[Canola, Corn, Sorghum, Soybean, Sunflower, and Long Grain Rice give straw when harvesting.]]></en>
-        <de><![CDATA[Raps, Mais, Sorghum, Sojabohnen, Sonnenblumen und Langkornreis geben Stroh bei der Ernte.]]></de>
-		<nl><![CDATA[Koolzaad, Maïs, Sorghum, Sojabonen, Zonnenbloemen en Langkorrelige Rijst geven nu stro bij het oogsten.]]></nl>
-		<es><![CDATA[La Canola, Maiz, Sorgo, Soja, el Girasol y el Arroz de Grano Largo dan paja durante la cosecha.]]></es>
-		<no><![CDATA[Raps, Mais, Durra, Soyabønner, Solsikker  og  Langkornet ris gir halm når de blir høstet.]]></no>
-		<pl><![CDATA[Rzepak, kukurydza, sorgo, soja, słoneczniki i ryż długoziarnisty będą produkować słomę podczas zbiorów.]]></pl>
+        <en><![CDATA[Canola, Corn, Sorghum, Soybean, and Sunflower give straw when harvesting.
+
+Changelog 1.0.0.1:
+- Removed crops planted in rice fields.
+]]>
+        </en>
+        <de><![CDATA[Raps, Mais, Sorghum, Sojabohnen und Sonnenblumen liefern bei der Ernte Stroh.
+
+Changelog 1.0.0.1:
+- Auf Reisfeldern angebaute Nutzpflanzen entfernt.
+]]>
+        </de>
     </description>
     <iconFilename>icon_CropManager.dds</iconFilename>
     <multiplayer supported="true" />
     <extraSourceFiles>
-        <sourceFile filename="src/main.lua" />
+        <sourceFile filename="src/ExtendedStrawCrops.lua" />
     </extraSourceFiles>
 </modDesc>
